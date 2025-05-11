@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Task Dashboard</title>
+    <link rel="stylesheet" href="C:\Users\USER\Desktop\liberty\feb-2025-css3-transitions-animations-js-functions-liberty0015\css\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="particle-bg"></div>
+    <div class="container">
+        <h1>Ultimate Task Dashboard</h1>
+        <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+        <div class="progress-bar">
+        
+            <div id="progressFill"></div>
+        </div>
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="Add a new task..." aria-label="New task input">
+            <button onclick="addTask()" class="pulse">Add Task</button>
+        </div>
+        <div class="filter-section">
+            <button onclick="filterTasks('all')" class="active">All</button>
+            <button onclick="filterTasks('active')">Active</button>
+            <button onclick="filterTasks('completed')">Completed</button>
+        </div>
+        <div id="feedback" class="feedback" role="alert"></div>
+        <ul id="taskList" role="list"></ul>
+    </div>
+    <script src="C:\Users\USER\Desktop\liberty\feb-2025-css3-transitions-animations-js-functions-liberty0015\css\javascrip\script.js"></script>
+</body>
+</html>
